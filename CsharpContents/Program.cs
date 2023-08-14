@@ -1,5 +1,6 @@
 ﻿using CsharpContents.Access_specifiers;
 using CsharpContents.methods_without_return;
+using CsharpContents.method_with_return;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,21 @@ namespace CsharpContents
 
             var obj3 = new WithoutReturn();
             obj3.fun4(3);
+
+            ArthemeticOprts obj4 = new ArthemeticOprts();
+
+            int c=obj4.add(2, 3);
+            Console.WriteLine("Result of add fun:"+c);
+
+
+           
+            
+
+
+
+            
+
+            Console.ReadKey();
 
         }
     }

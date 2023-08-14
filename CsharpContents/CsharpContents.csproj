@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Access specifiers\Class1.cs" />
+    <Compile Include="methods without return\WithoutReturn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="method with return\" />
-    <Folder Include="methods without return\" />
     <Folder Include="split\" />
     <Folder Include="static methods\" />
   </ItemGroup>

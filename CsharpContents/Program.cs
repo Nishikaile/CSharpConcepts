@@ -1,4 +1,5 @@
 ﻿using CsharpContents.Access_specifiers;
+using CsharpContents.methods_without_return;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,9 @@ namespace CsharpContents
             Class1.SomeData();
             obj2.evenodd(10);
             obj2.evennumbers(10);
+
+            var obj3 = new WithoutReturn();
+            obj3.fun4(3);
 
         }
     }

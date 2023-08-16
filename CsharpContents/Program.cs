@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CsharpContents.Trim;
 
 namespace CsharpContents
 {
@@ -31,15 +32,9 @@ namespace CsharpContents
             Console.WriteLine("Result of add fun:"+c);
 
 
-           
-            
-
-
-
-            
-
+            UsingTrim obj5 = new UsingTrim();
+            obj5.trim("     Raghav","Raghav      ","Raghav");
             Console.ReadKey();
-
         }
     }
 }

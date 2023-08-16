@@ -27,6 +27,7 @@ namespace CsharpContents
             obj3.fun4(3);
 
             ArthemeticOprts obj4 = new ArthemeticOprts();
+            Console.WriteLine("Multiplication: "+ArthemeticOprts.multiply(4,5));
 
             int c=obj4.add(2, 3);
             Console.WriteLine("Result of add fun:"+c);

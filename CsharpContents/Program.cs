@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using CsharpContents.Trim;
 using CsharpContents.Switch;
 using CsharpContents.Loops;
+using CsharpContents.Replace;
 
 namespace CsharpContents
 {
@@ -50,8 +51,11 @@ namespace CsharpContents
             //While obj9 = new While();
             //obj9.method2();
 
-            ForEach forEach = new ForEach();
-            forEach.method3();
+            //ForEach forEach = new ForEach();
+            //forEach.method3();
+
+            UsingReplace usingReplace = new UsingReplace();
+            usingReplace.replace("Hello#", "Hi@123", "Latha");
 
             Console.ReadKey();
 

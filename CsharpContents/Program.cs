@@ -10,6 +10,7 @@ using CsharpContents.Trim;
 using CsharpContents.Switch;
 using CsharpContents.Loops;
 using CsharpContents.Replace;
+using CsharpContents.Replace_and_Split;
 
 namespace CsharpContents
 {
@@ -54,8 +55,11 @@ namespace CsharpContents
             //ForEach forEach = new ForEach();
             //forEach.method3();
 
-            UsingReplace usingReplace = new UsingReplace();
-            usingReplace.replace("Hello#", "Hi@123", "Latha");
+            //UsingReplace usingReplace = new UsingReplace();
+            //usingReplace.replace("Hello#", "Hi@123", "Latha");
+
+            UsingSplit usingSplit = new UsingSplit();
+            usingSplit.split();
 
             Console.ReadKey();
 

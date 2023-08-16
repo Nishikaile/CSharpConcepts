@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CsharpContents.Trim;
 using CsharpContents.Switch;
+using CsharpContents.Loops;
 
 namespace CsharpContents
 {
@@ -37,8 +38,20 @@ namespace CsharpContents
             ////UsingTrim obj5 = new UsingTrim();
             ////obj5.trim("     Raghav","Raghav      ","Raghav");
 
-            UsingSwitch obj6 = new UsingSwitch();
-            obj6.athmoprts();
+            //UsingSwitch obj6 = new UsingSwitch();
+            //obj6.athmoprts();
+
+            //UsingIf obj7 = new UsingIf();
+            //obj7.method1(3);
+
+            //For obj8 = new For();
+            //obj8.factorial();
+
+            //While obj9 = new While();
+            //obj9.method2();
+
+            ForEach forEach = new ForEach();
+            forEach.method3();
 
             Console.ReadKey();
 

@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Access specifiers\Class1.cs" />
+    <Compile Include="Loops\For.cs" />
+    <Compile Include="Loops\ForEach.cs" />
+    <Compile Include="Loops\UsingIf.cs" />
+    <Compile Include="Loops\While.cs" />
     <Compile Include="method with return\ArthemeticOprts.cs" />
     <Compile Include="methods without return\WithoutReturn.cs" />
     <Compile Include="Program.cs" />
@@ -54,8 +58,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="static methods\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

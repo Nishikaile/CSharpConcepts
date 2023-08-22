@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Access specifiers\Class1.cs" />
+    <Compile Include="Collections\UsingList.cs" />
+    <Compile Include="Lamda Expressions\UsingLamdaExp.cs" />
     <Compile Include="Loops\For.cs" />
     <Compile Include="Loops\ForEach.cs" />
     <Compile Include="Loops\UsingIf.cs" />
@@ -60,6 +62,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Exception Handling\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

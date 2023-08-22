@@ -11,6 +11,7 @@ using CsharpContents.Switch;
 using CsharpContents.Loops;
 using CsharpContents.Replace;
 using CsharpContents.Replace_and_Split;
+using CsharpContents.Collections;
 
 namespace CsharpContents
 {
@@ -58,12 +59,13 @@ namespace CsharpContents
             //UsingReplace usingReplace = new UsingReplace();
             //usingReplace.replace("Hello#", "Hi@123", "Latha");
 
-            UsingSplit usingSplit = new UsingSplit();
-            usingSplit.split();
+            //UsingSplit usingSplit = new UsingSplit();
+            //usingSplit.split();
 
+
+            UsingList usingList = new UsingList();
+            usingList.List();
             Console.ReadKey();
-
-
         }
     }
 }

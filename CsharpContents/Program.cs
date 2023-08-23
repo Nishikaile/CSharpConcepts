@@ -67,7 +67,7 @@ namespace CsharpContents
             //usingList.List();
             int[] array1 = new int[] { 1, 2, 3, 4, 5 };
             Exceptions e = new Exceptions();
-            Console.WriteLine(e.getInt(array1,5));
+            Console.WriteLine(e.getInt(array1,2));
             Console.ReadKey();
         }
     }

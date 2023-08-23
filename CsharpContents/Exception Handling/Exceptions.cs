@@ -15,11 +15,24 @@ namespace CsharpContents.Exception_Handling
                 return array1[index];
             }
 
-            catch(IndexOutOfRangeException e)
+            catch (IndexOutOfRangeException e) when (index < 0)
+            {
+                throw new ArgumentOutOfRangeException("Parameter index cannot be negative", e);
+            }
+
+            catch (IndexOutOfRangeException e)
             {
                 //return 1;
                 throw new ArgumentOutOfRangeException("Parameter out of indexr range", e);
 
+            }
+            finally
+            {
+                foreach(int ele in array1)
+                {
+                    Console.WriteLine( ele);
+                }
+                
             }
         }
     }

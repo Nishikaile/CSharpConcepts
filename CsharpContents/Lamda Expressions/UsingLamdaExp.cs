@@ -22,5 +22,6 @@ namespace CsharpContents.Lamda_Expressions
             }
             numbers.ForEach(number => Console.Write(number + " "));
         }
+
     }
 }

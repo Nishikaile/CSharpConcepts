@@ -12,6 +12,7 @@ using CsharpContents.Loops;
 using CsharpContents.Replace;
 using CsharpContents.Replace_and_Split;
 using CsharpContents.Collections;
+using CsharpContents.Exception_Handling;
 
 namespace CsharpContents
 {
@@ -62,9 +63,11 @@ namespace CsharpContents
             //UsingSplit usingSplit = new UsingSplit();
             //usingSplit.split();
 
-
-            UsingList usingList = new UsingList();
-            usingList.List();
+            //UsingList usingList = new UsingList();
+            //usingList.List();
+            int[] array1 = new int[] { 1, 2, 3, 4, 5 };
+            Exceptions e = new Exceptions();
+            Console.WriteLine(e.getInt(array1,5));
             Console.ReadKey();
         }
     }

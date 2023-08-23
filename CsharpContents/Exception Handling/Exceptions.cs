@@ -8,7 +8,9 @@ namespace CsharpContents.Exception_Handling
 {
     class Exceptions
     {
-       public int getInt(int[] array1, int index)
+        
+
+        public int getInt(int[] array1, int index)
         {
             try
             {
@@ -28,9 +30,10 @@ namespace CsharpContents.Exception_Handling
             }
             finally
             {
+                Console.WriteLine("The elements in the list are: ");
                 foreach(int ele in array1)
                 {
-                    Console.WriteLine( ele);
+                    Console.WriteLine(ele);
                 }
                 
             }

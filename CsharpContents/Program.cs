@@ -18,6 +18,7 @@ namespace CsharpContents
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
             ////var obj = new Class1();
@@ -65,9 +66,15 @@ namespace CsharpContents
 
             //UsingList usingList = new UsingList();
             //usingList.List();
-            int[] array1 = new int[] { 1, 2, 3, 4, 5 };
-            Exceptions e = new Exceptions();
-            Console.WriteLine("The returned value of given index: "+e.getInt(array1,2));
+            //int[] array1 = new int[] { 1, 2, 3, 4, 5 };
+            //Exceptions e = new Exceptions();
+            //Console.WriteLine("The returned value of given index: "+e.getInt(array1,2));
+
+            Lists lists = new Lists();
+            lists.IterateThroughLists();
+
+
+
             Console.ReadKey();
         }
     }

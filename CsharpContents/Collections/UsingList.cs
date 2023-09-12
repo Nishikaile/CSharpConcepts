@@ -17,6 +17,8 @@ namespace CsharpContents.Collections
             //list1.Remove("1");
             //list1.RemoveAt(1);
 
+          
+
             var list2 = new List<String> { "Hello", "Hii", "123", "7eyde" };
 
             for(int i = 0; i < list2.Count();i++)

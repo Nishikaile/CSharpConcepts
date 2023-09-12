@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Access specifiers\Class1.cs" />
+    <Compile Include="Collections\Dictionaries\Dictionary.cs" />
     <Compile Include="Collections\Lists.cs" />
     <Compile Include="Collections\UsingList.cs" />
     <Compile Include="Exception Handling\Exceptions.cs" />

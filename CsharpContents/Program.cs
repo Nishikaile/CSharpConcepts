@@ -13,6 +13,7 @@ using CsharpContents.Replace;
 using CsharpContents.Replace_and_Split;
 using CsharpContents.Collections;
 using CsharpContents.Exception_Handling;
+using CsharpContents.Collections.Dictionaries;
 
 namespace CsharpContents
 {
@@ -64,16 +65,56 @@ namespace CsharpContents
             //UsingSplit usingSplit = new UsingSplit();
             //usingSplit.split();
 
-            //UsingList usingList = new UsingList();
-            //usingList.List();
+            UsingList usingList = new UsingList();
+            usingList.List();
             //int[] array1 = new int[] { 1, 2, 3, 4, 5 };
             //Exceptions e = new Exceptions();
             //Console.WriteLine("The returned value of given index: "+e.getInt(array1,2));
 
-            Lists lists = new Lists();
-            lists.IterateThroughLists();
+            //Lists lists = new Lists();
+            //lists.IterateThroughLists();
+
+            //Dictionary<int, string> My_dict1 =new Dictionary<int, string>();
+            //My_dict1.Add(1, "Welcome");
+            //My_dict1.Add(2, "Hii");
+            //My_dict1.Add(3, "Hello");
+            //My_dict1.Add(4, "Bye");
+
+            //foreach (KeyValuePair<int, string> ele1 in My_dict1)
+            //{
+            //    Console.WriteLine("{0} and {1}",ele1.Key, ele1.Value);
+            //}
+
+            //My_dict1.Remove(4);//removes the value with corresponding key
+            //My_dict1.Clear();// removes all keys and values 
+
+            //foreach (KeyValuePair<int, string> ele1 in My_dict1)
+            //{
+            //    Console.WriteLine("After clear method: {0} and {1}", ele1.Key, ele1.Value);
+            //}
+
+            //if (My_dict1.ContainsKey(5) == true)
+            //{
+            //    Console.WriteLine("Key is found...!!");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("Key is not found...!!");
+            //}
 
 
+
+            //if (My_dict1.ContainsValue("Hello") == true)
+            //{
+            //    Console.WriteLine("Value found");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Value not found");
+            //}
+
+            
 
             Console.ReadKey();
         }
